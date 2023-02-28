@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+p{
+    text-align: center;
+    margin: 5px 15px 5px 15px;
+    padding: 5px 0 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-stretch: expanded;
+    border-radius: 100px;
+    border-color: beige;
+    background-color: antiquewhite;
+    width: 500px;
+    position: relative;
+    left: 700px;
+}
+@media only screen and (max-width: 600px){
+    p{
+            background-color: antiquewhite;
+    }
+}
+
+p:hover{
+    color: indigo;
+    background-color: rgba(254, 254, 2, 0.5);
+}
